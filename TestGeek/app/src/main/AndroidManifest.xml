@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="tg.geeknation.rajkat.activities">
+
+    <uses-sdk android:minSdkVersion="14"
+        tools:ignore="GradleOverrides" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/geek"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning,RtlEnabled">
+        <activity
+            android:name="tg.geeknation.rajkat.activities.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="tg.geeknation.rajkat.activities.OffreActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="tg.geeknation.rajkat.activities.AddProfilActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+    </application>
+
+</manifest>
